@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #ffffff;
+	color: #111111;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 24px;
+	border-bottom: 1px solid #dcdcdc;
+	background: #ffffff;
+}
+
+.nav-links {
+	display: flex;
+	gap: 18px;
+}
+
+.nav-links a {
+	color: #111111;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-actions {
+	display: flex;
+	gap: 10px;
+}
+
+.nav-actions button {
+	padding: 8px 12px;
+	border: 1px solid #111111;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.welcome-area {
+	padding: 90px 24px 0;
+}
+
+.welcome-area h1 {
+	max-width: 360px;
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+	.top-nav {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 12px;
+	}
+
+	.nav-links {
+		flex-wrap: wrap;
+	}
+
+	.welcome-area {
+		padding-top: 56px;
+	}
+
+	.welcome-area h1 {
+		font-size: 26px;
+	}
+}
