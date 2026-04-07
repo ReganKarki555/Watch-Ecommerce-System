@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Register | Watch Store</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header class="top-nav">
+		<a class="brand" href="index.html">WatchEcom</a>
+		<nav class="nav-links">
+			<a href="index.html">Home</a>
+			<a href="#">Watches</a>
+			<a href="#">About Us</a>
+			<a href="#">Login</a>
+			<a href="register.html">Register</a>
+		</nav>
+	</header>
+
+	<main class="auth-page" aria-labelledby="register-title">
+		<h1 id="register-title">Create your account</h1>
+		<p>Join WatchEcom to save favorites and track your orders.</p>
+
+		<form class="auth-form" action="#" method="post">
+			<label for="name">Full Name
+				<input id="name" name="name" type="text" placeholder="Enter your full name" required />
+			</label>
+
+			<label for="email">Email
+				<input id="email" name="email" type="email" placeholder="Enter your email" required />
+			</label>
+
+			<label for="password">Password
+				<input id="password" name="password" type="password" placeholder="Create a password" minlength="6" required />
+			</label>
+
+			<button class="primary-btn" type="submit">Create Account</button>
+		</form>
+
+		<p class="auth-note">Already have an account? <a href="#">Login here</a></p>
+	</main>
+</body>
+</html>
