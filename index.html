@@ -4,10 +4,14 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Watch Store</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<header class="top-nav">
+		<a class="brand" href="#">WatchEcom</a>
 		<nav class="nav-links">
 			<a href="#">Home</a>
 			<a href="#">Watches</a>
@@ -21,9 +25,36 @@
 		</div>
 	</header>
 
-	<section class="welcome-area">
-		<h1>Welcome, Find your perfect watch</h1>
-	</section>
+	<main class="home-page">
+		<section class="hero">
+			<p class="hero-tag">Spring Collection 2026</p>
+			<h1>Simple way to find your perfect watch</h1>
+			<p class="hero-subtext">Discover classic, sports, and smart watches curated for every day style and performance.</p>
+			<div class="hero-actions">
+				<button class="primary-btn" type="button">Shop Now</button>
+				<button class="ghost-btn" type="button">View Collection</button>
+			</div>
+		</section>
+
+		<section class="quick-cards" aria-label="Featured categories">
+			<article class="card">
+				<h2>Classic Watches</h2>
+				<p>Timeless designs with premium leather and steel finishes.</p>
+			</article>
+			<article class="card">
+				<h2>Sport Series</h2>
+				<p>Built for active lifestyles with water resistance and durability.</p>
+			</article>
+			<article class="card">
+				<h2>Smart Wear</h2>
+				<p>Stay connected with health tracking and modern watch faces.</p>
+			</article>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<p>Built for watch lovers.</p>
+	</footer>
 	<script src="script.js"></script>
 </body>
 </html>
